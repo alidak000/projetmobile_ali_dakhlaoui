@@ -1,10 +1,9 @@
-# This file tracks properties of this Flutter project.
-# Used by Flutter tool to assess capabilities and perform upgrades etc.
-#
-# This file should be version controlled and should not be manually edited.
+# Mon travail consiste a faire la page de contacts contenant quelques utilisateur avec une barre de recherche pour trier les noms ou meme les villes
+# J'ai faits aussi les pages de renseigmenets sur ces utilisateurs(information sheet ) et on peut accéder a ces pages grace au boutons(symbole d'information) 
 
 version:
   revision: 60bd88df915880d23877bfc1602e8ddcf4c4dd2a
   channel: stable
 
-project_type: app
+Project_type: app
+Name : Ali_Dakhlaoui_INDP2E
