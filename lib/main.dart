@@ -46,123 +46,123 @@ class _MainPageState extends State<MainPage> {
           alignment: Alignment.center,
           children: [
             buildPages(),
-            Align(
-              alignment: AlignmentDirectional(0.84,-0.45),
-              child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(100, 0, 0, 0),
-                child: IconButton(
-                  icon:Icon(
-                    Icons.info,
-                    color: Colors.cyan[600],
-                  ),
-                  onPressed: (){
-                    print("Button Pressed");
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => ProfilePageAli())
-                      );
-                  },
-                ),
-              ),
-            ),
+            // Align(
+            //   alignment: AlignmentDirectional(0.84,-0.45),
+            //   child: Padding(
+            //     padding: EdgeInsetsDirectional.fromSTEB(100, 0, 0, 0),
+            //     child: IconButton(
+            //       icon:Icon(
+            //         Icons.info,
+            //         color: Colors.cyan[600],
+            //       ),
+            //       onPressed: (){
+            //         print("Button Pressed");
+            //         Navigator.push(
+            //           context, 
+            //           MaterialPageRoute(builder: (context) => ProfilePageAli())
+            //           );
+            //       },
+            //     ),
+            //   ),
+            // ),
 
-            Align(
-              alignment: AlignmentDirectional(0.75,-0.2),
-              child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
-                child: IconButton(
-                  icon:Icon(
-                    Icons.info,
-                    color: Colors.cyan[600],
-                  ),
-                  onPressed: (){
-                    print("Button Pressed");
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => ProfilePageyahya())
-                      );
-                  },
-                ),
-              ),
-            ),
-            Align(
-              alignment: AlignmentDirectional(0.75,0.06),
-              child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
-                child: IconButton(
-                  icon:Icon(
-                    Icons.info,
-                    color: Colors.cyan[600],
-                  ),
-                  onPressed: (){
-                    print("Button Pressed");
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => ProfilePagesalim())
-                      );
-                  },
-                ),
-              ),
-            ),
-            Align(
-              alignment: AlignmentDirectional(0.75,0.3),
-              child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
-                child: IconButton(
-                  icon:Icon(
-                    Icons.info,
-                    color: Colors.cyan[600],
-                  ),
-                  onPressed: (){
-                    print("Button Pressed");
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => ProfilePageghaith())
-                      );
-                  },
-                ),
-              ),
-            ),
+            // Align(
+            //   alignment: AlignmentDirectional(0.75,-0.2),
+            //   child: Padding(
+            //     padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
+            //     child: IconButton(
+            //       icon:Icon(
+            //         Icons.info,
+            //         color: Colors.cyan[600],
+            //       ),
+            //       onPressed: (){
+            //         print("Button Pressed");
+            //         Navigator.push(
+            //           context, 
+            //           MaterialPageRoute(builder: (context) => ProfilePageyahya())
+            //           );
+            //       },
+            //     ),
+            //   ),
+            // ),
+            // Align(
+            //   alignment: AlignmentDirectional(0.75,0.06),
+            //   child: Padding(
+            //     padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
+            //     child: IconButton(
+            //       icon:Icon(
+            //         Icons.info,
+            //         color: Colors.cyan[600],
+            //       ),
+            //       onPressed: (){
+            //         print("Button Pressed");
+            //         Navigator.push(
+            //           context, 
+            //           MaterialPageRoute(builder: (context) => ProfilePagesalim())
+            //           );
+            //       },
+            //     ),
+            //   ),
+            // ),
+            // Align(
+            //   alignment: AlignmentDirectional(0.75,0.3),
+            //   child: Padding(
+            //     padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
+            //     child: IconButton(
+            //       icon:Icon(
+            //         Icons.info,
+            //         color: Colors.cyan[600],
+            //       ),
+            //       onPressed: (){
+            //         print("Button Pressed");
+            //         Navigator.push(
+            //           context, 
+            //           MaterialPageRoute(builder: (context) => ProfilePageghaith())
+            //           );
+            //       },
+            //     ),
+            //   ),
+            // ),
 
-            Align(
-              alignment: AlignmentDirectional(0.75,0.55),
-              child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
-                child: IconButton(
-                  icon:Icon(
-                    Icons.info,
-                    color: Colors.cyan[600],
-                  ),
-                  onPressed: (){
-                    print("Button Pressed");
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => ProfilePageyassine())
-                      );
-                  },
-                ),
-              ),
-            ),
+            // Align(
+            //   alignment: AlignmentDirectional(0.75,0.55),
+            //   child: Padding(
+            //     padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
+            //     child: IconButton(
+            //       icon:Icon(
+            //         Icons.info,
+            //         color: Colors.cyan[600],
+            //       ),
+            //       onPressed: (){
+            //         print("Button Pressed");
+            //         Navigator.push(
+            //           context, 
+            //           MaterialPageRoute(builder: (context) => ProfilePageyassine())
+            //           );
+            //       },
+            //     ),
+            //   ),
+            // ),
 
-            Align(
-              alignment: AlignmentDirectional(0.75,0.79),
-              child: Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
-                child: IconButton(
-                  icon:Icon(
-                    Icons.info,
-                    color: Colors.cyan[600],
-                  ),
-                  onPressed: (){
-                    print("Button Pressed");
-                    Navigator.push(
-                      context, 
-                      MaterialPageRoute(builder: (context) => ProfilePageyesmine())
-                      );
-                  },
-                ),
-              ),
-            ),
+            // Align(
+            //   alignment: AlignmentDirectional(0.75,0.79),
+            //   child: Padding(
+            //     padding: EdgeInsetsDirectional.fromSTEB(200, 0, 0, 0),
+            //     child: IconButton(
+            //       icon:Icon(
+            //         Icons.info,
+            //         color: Colors.cyan[600],
+            //       ),
+            //       onPressed: (){
+            //         print("Button Pressed");
+            //         Navigator.push(
+            //           context, 
+            //           MaterialPageRoute(builder: (context) => ProfilePageyesmine())
+            //           );
+            //       },
+            //     ),
+            //   ),
+            // ),
           ],
         ),
   );
