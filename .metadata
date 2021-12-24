@@ -1,5 +1,5 @@
-# Mon travail consiste a faire la page de contacts contenant quelques utilisateur avec une barre de recherche pour trier les noms ou meme les villes
-# J'ai fait aussi les pages de renseigmenets sur ces utilisateurs(information sheet ) et on peut accéder a ces pages grace aus boutons(symbole d'information) 
+# Mon travail consiste a faire la page de contacts contenant quelques utilisateurs avec une barre de recherche pour trier les noms ou meme les villes
+# J'ai fait aussi les pages de renseigmenets sur ces utilisateurs(information sheet ) et on peut accéder a ces pages grace aux boutons(symbole d'information) 
 
 version:
   revision: 60bd88df915880d23877bfc1602e8ddcf4c4dd2a
