@@ -3,6 +3,7 @@ import 'package:filter_listview_example/main.dart';
 import 'package:filter_listview_example/model/book.dart';
 import 'package:filter_listview_example/widget/search_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:filter_listview_example/Ali_profile.dart';
 
 class FilterLocalListPage extends StatefulWidget {
   @override
@@ -50,6 +51,20 @@ class FilterLocalListPageState extends State<FilterLocalListPage> {
       );
 
   Widget buildBook(Book book) => ListTile(
+    trailing: IconButton(
+      icon:Icon(
+                    Icons.info,
+                    color: Colors.cyan[600],
+                  ),
+                  onPressed: (){
+                    print("Button Pressed");
+                    Navigator.push(
+                      context, 
+                      MaterialPageRoute(builder: (context) => ProfilePageAli())
+                      );
+                  },
+                ),
+    
         leading: Image.network(
           book.urlImage,
           fit: BoxFit.cover,
